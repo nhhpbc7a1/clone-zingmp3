@@ -1,0 +1,216 @@
+@media (max-width: 1344px) {
+    :root {
+        --playlistGroup-itemWidth: calc(var(--bodyContentWidth) * 25 / 100);
+    }
+    #body .playlist-group{
+        overflow-x: hidden;
+    }
+}
+
+@media (max-width: 1176px) {
+    #play-audio .group-right .icon__volumn {
+        position: relative;
+    }
+    #play-audio .group-right .icon__volumn .volumn-bar{
+        display: none;
+        position: absolute;
+        top: -15px;
+        left: -50px;
+        padding: 12px;
+        border-radius: 3px;
+        background-color: #3a3939;
+    }
+
+    #play-audio .group-right .icon__volumn .volumn-bar-line{ 
+        height: 6px;
+        width: 120px;
+        background-color: #fff;
+    }
+    #play-audio .group-right .icon__volumn:hover  .volumn-bar{
+        display: block;
+    }
+
+    #play-audio .song__info {
+        flex: 1;
+    }
+}
+
+@media (max-width: 1134px) {
+    :root {
+        --bodyWidth: calc(100vw - 72px);
+        --sidebarWidth: 72px;
+    }
+
+    #navbar {
+        z-index: 1;
+    }
+    #sidebar {
+        z-index: 2;
+    }
+
+    #sidebar .sidebar__add-playlist {
+        z-index: 2;
+    }
+
+    #sidebar .openSidebar {
+        display: block;
+    }
+
+    /* before */
+    #sidebar .logo {
+        display: none;
+    }
+    #sidebar .logo-dvd{
+        display: block;
+    }
+
+    #sidebar .options__item label,
+    #sidebar .options__item i:last-child{
+        display: none;
+    }
+
+    #sidebar .options__item:hover .options__item-icon:last-child {        display: none;
+        display: none;
+    }
+
+    #sidebar .options__up-premium {
+        display: none;
+    }
+
+    #sidebar .sidebar__add-playlist i{
+        display: none;
+    }
+    
+    #openSidebar{
+        display: none;
+    }
+
+    .openSidebar i:first-child {
+        display: block;
+    }
+
+    .openSidebar i:last-child {
+        display: none;
+    }
+    /* #sidebar .logo {
+        display: block;
+    }
+    #sidebar .logo-dvd{
+        display: none;
+    }
+
+    #sidebar .options__item label,
+    #sidebar .options__item i:last-child{
+        display: block;
+    }
+
+    #sidebar .options__item:hover .options__item-icon:last-child {        display: none;
+        display: block;
+    }
+
+    #sidebar .options__up-premium {
+        display: block;
+    }
+
+    #sidebar .sidebar__add-playlist i{
+        display: block;
+    }
+    
+    #openSidebar{
+        display: block;
+    }
+
+    .openSidebar i:first-child {
+        display: none;
+    }
+
+    .openSidebar i:last-child {
+        display: block;
+    }  */
+
+    /* after */
+    
+    #openSidebar:checked ~ #sidebar{
+        width: 240px;
+    }
+    #openSidebar:checked ~ #sidebar .logo {
+        display: block;
+    }
+    #openSidebar:checked ~ #sidebar .logo-dvd{
+        display: none;
+    }
+
+    #openSidebar:checked ~ #sidebar .options__item label{
+        display: block;
+    }
+
+    #openSidebar:checked ~#sidebar .options__item:hover .options__item-icon:last-child {        display: none;
+        display: block;
+    }
+
+    #openSidebar:checked ~#sidebar .options__up-premium {
+        display: block;
+    }
+
+    #openSidebar:checked ~#sidebar .sidebar__add-playlist i:first-child{
+        display: block;
+    }
+    
+    #openSidebar:checked ~#sidebar .openSidebar input{
+        display: none;
+    }
+
+    #openSidebar:checked ~#sidebar .openSidebar i:first-child {
+        display: none;
+    }
+
+    #openSidebar:checked ~#sidebar .openSidebar i:last-child {
+        display: block;
+    }
+
+    /* ----- */
+    .openSidebar {
+        height: 58px;
+        width: 72px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        z-index: 10;
+        padding: 0 4px;
+    }
+
+    .openSidebar label{
+        height: 58px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .openSidebar i {
+        color: var(--white-color);
+        padding: 10px 14px;
+        border-radius: 50%;
+        background-color: rgba(255,255,255,0.14);
+    }
+    .openSidebar i:hover {
+        cursor: pointer;
+        background-color: rgba(255,255,255,0.1);
+    }
+
+
+}
+
+@media (max-width: 1024px) {
+    :root {
+        --bodyPaddingLeftRight: 28px;
+        --navbarPaddingLeftRight: 28px;
+    }
+
+    #play-audio .song__option {
+        display: none;
+    }
+}

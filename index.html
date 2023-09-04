@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+</head>
+<body>
+    <input id="openSidebar" type="checkbox">
+    <div id="sidebar">
+        <div class="openSidebar">
+            <label for="openSidebar">
+                <i class="fa-solid fa-chevron-right"></i>
+                <i class="fa-solid fa-chevron-left"></i>
+            </label>
+        </div>
+
+        <img src="./assets/img/logo/ZingMP3logo.svg.png" alt="" class="logo">
+        <img src="./assets/img/logo/dvd-svgrepo-com.svg" alt="" class="logo-dvd">
+        <div class="options-top">
+            <ul class="options-top__list">
+                <li class="options__item">
+                    <i class="options__item-icon fa-regular fa-circle-dot"></i>                    
+                    <label class="options__item-name">
+                        Khám Phá
+                    </label>
+                    <i class="options__item-icon fa-regular fa-circle-play"></i>
+                </li>
+                <li class="options__item ">
+                    <i class="options__item-icon fa-solid fa-arrow-trend-up"></i>                    
+                    <label class="options__item-name">
+                        #zingchart
+                    </label>
+                    <i class="options__item-icon fa-regular fa-circle-play"></i>
+                </li>
+                <li class="options__item">
+                    <i class="options__item-icon fa-solid fa-music"></i>                    
+                    <label class="options__item-name">
+                        Radio
+                        <div class="options__item-name options__item-name--live">LIVE</div>
+                    </label>
+                    <i class="options__item-icon fa-regular fa-circle-play"></i>
+                </li>
+                <li class="options__item options__item--active">
+                    <i class="options__item-icon fa-solid fa-radio"></i>                    
+                    <label class="options__item-name">    
+                        Thư viện
+                    </label>
+                    <i class="options__item-icon fa-regular fa-circle-play"></i>
+                </li>
+            </ul>
+        </div>
+        <div class="sidebar__separate"></div>
+        <div class="options-bot">
+            <ul class="options-bot__list">
+                <li class="options__item">
+                    <i class="options__item-icon fa-solid fa-music"></i>                    
+                    <label class="options__item-name">
+                        BXH Nhạc Mới
+                    </label>
+                    <i class="options__item-icon fa-regular fa-circle-play"></i>
+                </li>
+                <li class="options__item ">
+                    <i class="options__item-icon fa-solid fa-icons"></i>                    
+                    <label class="options__item-name">
+                        Chủ Đề & Thể Loại
+                    </label>
+                    <i class="options__item-icon fa-regular fa-circle-play"></i>
+                </li>
+                <li class="options__item">
+                    <i class="options__item-icon fa-regular fa-star"></i>                    
+                    <label class="options__item-name">
+                        Top 100
+                    </label>
+                    <i class="options__item-icon fa-regular fa-circle-play"></i>
+                </li>
+            </ul>
+            <div class="options__up-premium">
+                <p>Nghe nhạc không quảng cáo cùng kho nhạc PREMIUM</p>
+                <button>nâng cấp tài khoản</button>
+            </div>
+
+
+            <ul class="options-bot__user-playlist">
+                <li class="options__item">
+                    <i class="options__item-icon fa-regular fa-circle-dot"></i>                    <label class="options__item-name">
+                        Khám Phá
+                    </label>
+                    <i class="options__item-icon fa-regular fa-circle-play"></i>
+                </li>
+                <li class="options__item">
+                    <i class="options__item-icon fa-regular fa-circle-dot"></i>                    <label class="options__item-name">
+                        Khám Phá
+                    </label>
+                    <i class="options__item-icon fa-regular fa-circle-play"></i>
+                </li>
+                <li class="options__item">
+                    <i class="options__item-icon fa-regular fa-circle-dot"></i>                    <label class="options__item-name">
+                        Khám Phá
+                    </label>
+                    <i class="options__item-icon fa-regular fa-circle-play"></i>
+                </li>
+                <li class="options__item">
+                    <i class="options__item-icon fa-regular fa-circle-dot"></i>                    <label class="options__item-name">
+                        Khám Phá
+                    </label>
+                    <i class="options__item-icon fa-regular fa-circle-play"></i>
+                </li>
+
+            </ul>
+
+        </div>
+        <div class="sidebar__separate sidebar__separate--full"></div>
+
+        <div class="sidebar__add-playlist">
+            <div class="options__item">
+                <i class="options__item-icon fa-solid fa-plus"></i>                    <label class="options__item-name">
+                    Tạo Playlist Mới
+                </label>
+            </div>
+        </div>
+
+    </div>
+    <nav id="navbar">
+        <i class="icon-disable nav__back fa-solid fa-arrow-left"></i>
+        <i class="nav__next fa-solid fa-arrow-right"></i>
+        
+        <div class="nav__search">
+            <div class="nav__search-box">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="Tìm kiếm bài hát, nghệ sĩ, lời bài hát...">
+            </div>
+        </div>
+        <div class="nav__download">
+            <i class="fa-solid fa-download"></i>
+            <p>Tải bản Windows</p>
+        </div>
+        <div class="nav__settings">
+            <i class="fa-solid fa-gear"></i>
+        </div>
+        <img class="nav__user" src="assets/img/songs/song1.png" alt="">
+    </nav>
+    <div id="body">
+
+        <div class="library-page">
+            <h1 class="title">
+                Thư viện 
+                <i class="fa-solid fa-circle-play"></i>
+            </h1>
+
+            <div class="playlist-group">
+                <div class="playlist-group__header">
+                    <h2 class="playlist-group__title">
+                        Playlist
+                        <i class="fa-solid fa-plus"></i>
+                    </h2>
+                    <div class="playlist-group__show-all">
+                        Tất cả
+                        <i class="fa-solid fa-chevron-right"></i>
+                    </div>
+                </div>
+                <ul class="playlist-group__list ">
+                    <li class="playlist-group__item">
+                        <div class="playlist-group__item-photo-container">
+                            <img class="playlist-group__item-photo" src="./assets/img/songs/song6.png" alt="">
+                            <div class="playlist-group__item-photo-icon-hover">
+                                <i class="icon-hover icon--active fa-solid fa-heart"></i>
+                                <i class="icon-hover fa-regular fa-circle-play"></i>
+                                <i class="icon-hover fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                        <p class="playlist-group__item-name"href="">Những Bài Hát hay nhất của Jombie</p>
+                        <p class="playlist-group__item-resource">Zing MP3</p>
+                    </li>
+                    <li class="playlist-group__item">
+                        <div class="playlist-group__item-photo-container">
+                            <img class="playlist-group__item-photo" src="./assets/img/songs/song7.png" alt="">
+                            <div class="playlist-group__item-photo-icon-hover">
+                                <i class="icon-hover icon--active fa-solid fa-heart"></i>
+                                <i class="icon-hover fa-regular fa-circle-play"></i>
+                                <i class="icon-hover fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                        <p class="playlist-group__item-name"href="">Những Bài Hát hay nhất của Jombie</p>
+                        <p class="playlist-group__item-resource">Zing MP3</p>
+                    </li>
+                    <li class="playlist-group__item">
+                        <div class="playlist-group__item-photo-container">
+                            <img class="playlist-group__item-photo" src="./assets/img/songs/song8.png" alt="">
+                            <div class="playlist-group__item-photo-icon-hover">
+                                <i class="icon-hover icon--active fa-solid fa-heart"></i>
+                                <i class="icon-hover fa-regular fa-circle-play"></i>
+                                <i class="icon-hover fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                        <p class="playlist-group__item-name"href="">Những Bài Hát hay nhất của Jombie</p>
+                        <p class="playlist-group__item-resource">Zing MP3</p>
+                    </li>
+                    <li class="playlist-group__item">
+                        <div class="playlist-group__item-photo-container">
+                            <img class="playlist-group__item-photo" src="./assets/img/songs/song9.png" alt="">
+                            <div class="playlist-group__item-photo-icon-hover">
+                                <i class="icon-hover icon--active fa-solid fa-heart"></i>
+                                <i class="icon-hover fa-regular fa-circle-play"></i>
+                                <i class="icon-hover fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                        <p class="playlist-group__item-name"href="">Những Bài Hát hay nhất của Jombie</p>
+                        <p class="playlist-group__item-resource">Zing MP3</p>
+                    </li>
+                    <li class="playlist-group__item">
+                        <div class="playlist-group__item-photo-container">
+                            <img class="playlist-group__item-photo" src="./assets/img/songs/song10.png" alt="">
+                            <div class="playlist-group__item-photo-icon-hover">
+                                <i class="icon-hover icon--active fa-solid fa-heart"></i>
+                                <i class="icon-hover fa-regular fa-circle-play"></i>
+                                <i class="icon-hover fa-solid fa-ellipsis"></i>
+                            </div>
+                        </div>
+                        <p class="playlist-group__item-name"href="">Những Bài Hát hay nhất của Jombie</p>
+                        <p class="playlist-group__item-resource">Zing MP3</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="user-data">
+                <nav class="user-data__nav">
+                    <p class="user-data__nav-item user-data__nav-item--active">Bài hát</p>
+                    <p class="user-data__nav-item">Podcast</p>
+                    <p class="user-data__nav-item">album</p>
+                    <p class="user-data__nav-item">mv</p>
+                </nav>
+                <div class="separate--full"></div>
+
+                <div class="user-data__option">
+                    <button class="user-data__option-btn user-data__option-btn--active">Yêu Thích</button>
+                    <button class="user-data__option-btn">Đã tải lên</button>
+                </div>
+
+                <table class="song-table">
+                    <tr class="song-table__header">
+                        <th class="song-table__col-0"></th>
+                        <th class="song-table__header-item">Bài hát</th>
+                        <th class="song-table__header-item">Album</th>
+                        <th class="song-table__header-item">Thời gian</th>
+                    </tr>
+
+                    <!-- <tr class="separate--full"></tr> -->
+                    <tr class="song-table__item">
+                        <td class="song-table__col-0">
+                            <div class="song-table__col-0-container">
+                                <i class="fa-solid fa-music"></i>
+                                <input type="checkbox">
+                            </div>
+                        </td>
+                        <td class="song-table__col-1">
+                            <div class="song-table__col-1-container">
+                                <div class="song-table__item-img-container">
+                                    <img src="./assets/img/songs/song1.png" alt="">
+                                    <i class="song-table__item-play-on-img fa-solid fa-play"></i>
+                                </div>
+                                <div class="song-table__item-info">
+                                    <div class="song-table__item-name">Kẻ mộng mơ</div>
+                                    <div class="song-table__item-singer">Reddy</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="song-table__col-2">
+                            <div class="song-table__item-album">Kẻ mộng mơ (single)</div>
+                        </td>
+                        <td class="song-table__col-3">
+                            <div class="song-table__col-3-container">
+                                <i class="song-table__item-karaoke fa-solid fa-microphone-lines"></i>
+                               
+                                <i class="song-table__item-to-library fa-solid fa-heart"></i>
+                                
+                                <div class="song-table__item-length">06:00</div>
+                                <i class="song-table__item-option fa-solid fa-ellipsis"></i>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="song-table__item">
+                        <td class="song-table__col-0">
+                            <div class="song-table__col-0-container">
+                                <i class="fa-solid fa-music"></i>
+                                <input type="checkbox">
+                            </div>
+                        </td>
+                        <td class="song-table__col-1">
+                            <div class="song-table__col-1-container">
+                                <div class="song-table__item-img-container">
+                                    <img src="./assets/img/songs/song1.png" alt="">
+                                    <i class="song-table__item-play-on-img fa-solid fa-play"></i>
+                                </div>
+                                <div class="song-table__item-info">
+                                    <div class="song-table__item-name">Kẻ mộng mơ</div>
+                                    <div class="song-table__item-singer">Reddy</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="song-table__col-2">
+                            <div class="song-table__item-album">Kẻ mộng mơ (single)</div>
+                        </td>
+                        <td class="song-table__col-3">
+                            <div class="song-table__col-3-container">
+                                <i class="song-table__item-karaoke fa-solid fa-microphone-lines"></i>
+                               
+                                <i class="song-table__item-to-library fa-solid fa-heart"></i>
+                                
+                                <div class="song-table__item-length">06:00</div>
+                                <i class="song-table__item-option fa-solid fa-ellipsis"></i>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="song-table__item">
+                        <td class="song-table__col-0">
+                            <div class="song-table__col-0-container">
+                                <i class="fa-solid fa-music"></i>
+                                <input type="checkbox">
+                            </div>
+                        </td>
+                        <td class="song-table__col-1">
+                            <div class="song-table__col-1-container">
+                                <div class="song-table__item-img-container">
+                                    <img src="./assets/img/songs/song1.png" alt="">
+                                    <i class="song-table__item-play-on-img fa-solid fa-play"></i>
+                                </div>
+                                <div class="song-table__item-info">
+                                    <div class="song-table__item-name">Kẻ mộng mơ</div>
+                                    <div class="song-table__item-singer">Reddy</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="song-table__col-2">
+                            <div class="song-table__item-album">Kẻ mộng mơ (single)</div>
+                        </td>
+                        <td class="song-table__col-3">
+                            <div class="song-table__col-3-container">
+                                <i class="song-table__item-karaoke fa-solid fa-microphone-lines"></i>
+                               
+                                <i class="song-table__item-to-library fa-solid fa-heart"></i>
+                                
+                                <div class="song-table__item-length">06:00</div>
+                                <i class="song-table__item-option fa-solid fa-ellipsis"></i>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="song-table__item">
+                        <td class="song-table__col-0">
+                            <div class="song-table__col-0-container">
+                                <i class="fa-solid fa-music"></i>
+                                <input type="checkbox">
+                            </div>
+                        </td>
+                        <td class="song-table__col-1">
+                            <div class="song-table__col-1-container">
+                                <div class="song-table__item-img-container">
+                                    <img src="./assets/img/songs/song1.png" alt="">
+                                    <i class="song-table__item-play-on-img fa-solid fa-play"></i>
+                                </div>
+                                <div class="song-table__item-info">
+                                    <div class="song-table__item-name">Kẻ mộng mơ</div>
+                                    <div class="song-table__item-singer">Reddy</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="song-table__col-2">
+                            <div class="song-table__item-album">Kẻ mộng mơ (single)</div>
+                        </td>
+                        <td class="song-table__col-3">
+                            <div class="song-table__col-3-container">
+                                <i class="song-table__item-karaoke fa-solid fa-microphone-lines"></i>
+                               
+                                <i class="song-table__item-to-library fa-solid fa-heart"></i>
+                                
+                                <div class="song-table__item-length">06:00</div>
+                                <i class="song-table__item-option fa-solid fa-ellipsis"></i>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="song-table__item">
+                        <td class="song-table__col-0">
+                            <div class="song-table__col-0-container">
+                                <i class="fa-solid fa-music"></i>
+                                <input type="checkbox">
+                            </div>
+                        </td>
+                        <td class="song-table__col-1">
+                            <div class="song-table__col-1-container">
+                                <div class="song-table__item-img-container">
+                                    <img src="./assets/img/songs/song1.png" alt="">
+                                    <i class="song-table__item-play-on-img fa-solid fa-play"></i>
+                                </div>
+                                <div class="song-table__item-info">
+                                    <div class="song-table__item-name">Kẻ mộng mơ</div>
+                                    <div class="song-table__item-singer">Reddy</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="song-table__col-2">
+                            <div class="song-table__item-album">Kẻ mộng mơ (single)</div>
+                        </td>
+                        <td class="song-table__col-3">
+                            <div class="song-table__col-3-container">
+                                <i class="song-table__item-karaoke fa-solid fa-microphone-lines"></i>
+                               
+                                <i class="song-table__item-to-library fa-solid fa-heart"></i>
+                                
+                                <div class="song-table__item-length">06:00</div>
+                                <i class="song-table__item-option fa-solid fa-ellipsis"></i>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="song-table__item">
+                        <td class="song-table__col-0">
+                            <div class="song-table__col-0-container">
+                                <i class="fa-solid fa-music"></i>
+                                <input type="checkbox">
+                            </div>
+                        </td>
+                        <td class="song-table__col-1">
+                            <div class="song-table__col-1-container">
+                                <div class="song-table__item-img-container">
+                                    <img src="./assets/img/songs/song1.png" alt="">
+                                    <i class="song-table__item-play-on-img fa-solid fa-play"></i>
+                                </div>
+                                <div class="song-table__item-info">
+                                    <div class="song-table__item-name">Kẻ mộng mơ</div>
+                                    <div class="song-table__item-singer">Reddy</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="song-table__col-2">
+                            <div class="song-table__item-album">Kẻ mộng mơ (single)</div>
+                        </td>
+                        <td class="song-table__col-3">
+                            <div class="song-table__col-3-container">
+                                <i class="song-table__item-karaoke fa-solid fa-microphone-lines"></i>
+                               
+                                <i class="song-table__item-to-library fa-solid fa-heart"></i>
+                                
+                                <div class="song-table__item-length">06:00</div>
+                                <i class="song-table__item-option fa-solid fa-ellipsis"></i>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr class="song-table__item">
+                        <td class="song-table__col-0">
+                            <div class="song-table__col-0-container">
+                                <i class="fa-solid fa-music"></i>
+                                <input type="checkbox">
+                            </div>
+                        </td>
+                        <td class="song-table__col-1">
+                            <div class="song-table__col-1-container">
+                                <div class="song-table__item-img-container">
+                                    <img src="./assets/img/songs/song1.png" alt="">
+                                    <i class="song-table__item-play-on-img fa-solid fa-play"></i>
+                                </div>
+                                <div class="song-table__item-info">
+                                    <div class="song-table__item-name">Kẻ mộng mơ</div>
+                                    <div class="song-table__item-singer">Reddy</div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="song-table__col-2">
+                            <div class="song-table__item-album">Kẻ mộng mơ (single)</div>
+                        </td>
+                        <td class="song-table__col-3">
+                            <div class="song-table__col-3-container">
+                                <i class="song-table__item-karaoke fa-solid fa-microphone-lines"></i>
+                               
+                                <i class="song-table__item-to-library fa-solid fa-heart"></i>
+                                
+                                <div class="song-table__item-length">06:00</div>
+                                <i class="song-table__item-option fa-solid fa-ellipsis"></i>
+                            </div>
+                        </td>
+                    </tr>
+                
+                </table>
+            </div>
+        </div>
+
+        <!-- <div class="first-page">
+
+        </div>
+        <div style="margin-left: 200px;width: 100px;height: 200px; background-color: red;"></div>
+        <div style="width: 100px;height: 200px; background-color: green;"></div>
+        <div style="margin-left: 200px;width: 100px;height: 200px; background-color: blue;"></div>
+        <div style="width: 100px;height: 200px; background-color: gray;"></div>
+        <div style="margin-left: 200px;width: 100px;height: 200px; background-color: purple;"></div>
+        <div style="width: 100px;height: 200px; background-color: orange;"></div>
+        <div class="group">
+
+        </div> -->
+    </div>
+    <div id="play-audio">
+        <div class="song">
+            <img src="./assets/img/songs/song1.png" alt="" class="song__img">
+            <div class="song__info">
+                <p class="song__name">Kẻ Mộng Mơ</p>
+                <a class="song__singer">Reddy</a>
+            </div>
+            <i class="song__to-library fa-regular fa-heart"></i>
+            <!-- <i class="fa-solid fa-heart"></i> -->    
+            <i class="song__option fa-solid fa-ellipsis"></i>
+        </div>
+
+        <div class="audio">
+            <div class="audio-btn">
+                <div class="audio-btn__random">
+                    <i class="audio-btn__icon fa-solid fa-shuffle"></i>
+                </div>
+                <div class="audio-btn__back">
+                    <i class="icon-disable audio-btn__icon fa-solid fa-backward-step"></i>
+                </div>
+                <div class="audio-btn__play">
+                    <i class="audio-btn__icon fa-regular fa-circle-play"></i>
+                </div>
+                <div class="audio-btn__next">
+                    <i class="audio-btn__icon fa-solid fa-forward-step"></i>
+                </div>
+                <div class="audio-btn__repeat">
+                    <i class="audio-btn__icon fa-solid fa-rotate"></i>
+                </div>
+            </div>
+            
+            <div class="audio-timer">
+                <div class="audio-timer__current">00:00</div>
+                <div class="audio-timer__player">
+                    <div class="audio-timer__player-line"></div>
+                </div>
+                <div class="audio-timer__end">06:00</div>
+            </div>
+        </div>
+
+        <div class="group-right">
+            <div class="icon">
+                <a class="icon__mv">
+                    <i class="icon-disable fa-solid fa-film"></i>
+                </a>
+                <a class="icon__karaoke">
+                    <i class="fa-solid fa-microphone-lines"></i>
+                </a>
+                <a class="icon__small-mode">
+                    <i class="fa-solid fa-expand"></i>
+                </a>
+                <div class="icon__volumn">
+                    <i class="fa-solid fa-volume-high"></i>
+                    <!-- <i class="fa-solid fa-volume-xmark"></i> -->
+                    <div class="volumn-bar">
+                        <div class="volumn-bar-line"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="separate"></div>
+
+            <i class="playlist fa-solid fa-sliders"></i>
+
+        
+        </div>
+    </div> 
+
+    <script src="./main.js"></script>
+</body>
+</html>

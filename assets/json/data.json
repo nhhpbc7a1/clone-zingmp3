@@ -1,0 +1,129 @@
+{
+  "songs": [
+    {
+        "id": 1,
+        "name": "Anh Thương Em Nhất Mà",
+        "singers": [
+          "Lã",
+          "Log",
+          "TiB"
+        ],
+        "album": "",
+        "length": 193
+    },
+    {
+        "id": 2,
+        "name": "Bông Hoa Chẳng Thuộc Về Ta",
+        "singers": [
+          "Như Việt"
+        ],
+        "album": "",
+        "length": 216
+    },
+    {
+        "id": 3,
+        "name": "Cao Ốc 20",
+        "singers": [
+          "Bray",
+          "Đạt G"
+        ],
+        "album": "",
+        "length": 254
+    },
+    {
+        "id": 4,
+        "name": "Đường Tôi Chở Em Về",
+        "singers": [
+          "buitruonglinh"
+        ],
+        "album": "",
+        "length": 266
+    },
+    {
+        "id": 5,
+        "name": "-237 độ C",
+        "singers": [
+          "HIEUTHUHAI",
+          "LOWNA"
+        ],
+        "album": "",
+        "length": 148
+    },
+    {
+        "id": 6,
+        "name": "Your Smile",
+        "singers": [
+          "Obito"
+        ],
+        "album": "",
+        "length": 202
+    },
+    {
+        "id": 7,
+        "name": "Blue Tequila",
+        "singers": [
+          "Táo"
+        ],
+        "album": "",
+        "length": 261
+    },
+    {
+        "id": 8,
+        "name": "Chuyện Rằng",
+        "singers": [
+          "Thịnh Suy"
+        ],
+        "album": "",
+        "length": 276
+    },
+    {
+        "id": 9,
+        "name": "Trước Khi Em Tồn Tại",
+        "singers": [
+          "Thắng Việt Anh cover"
+        ],
+        "album": "",
+        "length": 236
+    },
+    {
+        "id": 10,
+        "name": "Tự Tình",
+        "singers": [
+          "Quang Huy"
+        ],
+        "album": "",
+        "length": 320
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "image": "",
+      "isPremium": false,
+      "playing": {
+        "songId": 1,
+        "time": 69,
+        "isLibrary": "true",
+        "isAlbum": "false",
+        "listId": 1
+      },
+      "like": {
+        "songs": [
+          10,3,1,5,7,9
+        ],
+        "playlists": [
+          1,3,5,7,9
+        ],
+        "albums": [
+          1,3,5,7,9
+        ]
+      },
+      "custumPlaylists": {
+        "name": "hahaha",
+        "songs": [
+          2,4,6,8,10
+        ]
+      }
+    }
+  ]
+}
