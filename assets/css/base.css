@@ -68,6 +68,10 @@
     background-color: #3A3344;
 }
 
+.color-purple {
+    color: var(--purple-color) !important;
+}
+
 .song-table {
     width: 100%;
     margin-top: 28px;

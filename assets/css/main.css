@@ -226,18 +226,30 @@
 }
 
 #play-audio .song__info {
+    height: 100%;
     margin-left: 10px;
+    overflow: hidden;
 }
 
 #play-audio .song__name {
+    width: 100%;
+    height: 50%;
     color: #EFEFF0;
     font-size: 14px;
     font-weight: 500;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: calc(var(--playHeight) * 70 / 100);
 }
 
 #play-audio .song__singer {
+    width: 100%;
+    height: 50%;
     color: #838088;
     font-size: 12px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    line-height: calc(var(--playHeight) * 30 / 100);
 }
 
 #play-audio .song__singer:hover {
